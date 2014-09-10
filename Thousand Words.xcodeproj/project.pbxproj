@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633F8E9F19BF1610009FFE6D /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F8E9E19BF1610009FFE6D /* CoreDataHelper.m */; };
+		6343C47119BF19C300150644 /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343C47019BF19C300150644 /* PhotosCollectionViewController.m */; };
+		6343C47419BF1C2B00150644 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343C47319BF1C2B00150644 /* PhotoCollectionViewCell.m */; };
+		6343C47619BF1FD900150644 /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6343C47519BF1FD900150644 /* Default.jpg */; };
+		6353C6D919BFA2EF00F32DDB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6D819BFA2EF00F32DDB /* Photo.m */; };
+		6353C6DC19BFA2EF00F32DDB /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6DB19BFA2EF00F32DDB /* Album.m */; };
+		6353C6DF19BFA3D100F32DDB /* PictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6DE19BFA3D100F32DDB /* PictureDataTransformer.m */; };
+		6353C6E219BFB00500F32DDB /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6E119BFB00500F32DDB /* PhotoDetailViewController.m */; };
 		63C8CDC519BE59910030CC8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CDC419BE59910030CC8A /* main.m */; };
 		63C8CDC819BE59910030CC8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CDC719BE59910030CC8A /* AppDelegate.m */; };
 		63C8CDCB19BE59910030CC8A /* Thousand_Words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CDC919BE59910030CC8A /* Thousand_Words.xcdatamodeld */; };
-		63C8CDCE19BE59910030CC8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CDCD19BE59910030CC8A /* ViewController.m */; };
-		63C8CDD119BE59910030CC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8CDCF19BE59910030CC8A /* Main.storyboard */; };
 		63C8CDD319BE59910030CC8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C8CDD219BE59910030CC8A /* Images.xcassets */; };
 		63C8CDDF19BE59910030CC8A /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CDDE19BE59910030CC8A /* Thousand_WordsTests.m */; };
+		63C8CDE919BE5B230030CC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8CDE819BE5B230030CC8A /* Main.storyboard */; };
+		63C8CDEC19BE5BC10030CC8A /* AlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CDEB19BE5BC10030CC8A /* AlbumTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		633F8E9D19BF1610009FFE6D /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		633F8E9E19BF1610009FFE6D /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		6343C46F19BF19C300150644 /* PhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionViewController.h; sourceTree = "<group>"; };
+		6343C47019BF19C300150644 /* PhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionViewController.m; sourceTree = "<group>"; };
+		6343C47219BF1C2B00150644 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		6343C47319BF1C2B00150644 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		6343C47519BF1FD900150644 /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
+		6353C6D719BFA2EF00F32DDB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		6353C6D819BFA2EF00F32DDB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		6353C6DA19BFA2EF00F32DDB /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		6353C6DB19BFA2EF00F32DDB /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		6353C6DD19BFA3D100F32DDB /* PictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureDataTransformer.h; sourceTree = "<group>"; };
+		6353C6DE19BFA3D100F32DDB /* PictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureDataTransformer.m; sourceTree = "<group>"; };
+		6353C6E019BFB00500F32DDB /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		6353C6E119BFB00500F32DDB /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
 		63C8CDBF19BE59910030CC8A /* Thousand Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thousand Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C8CDC319BE59910030CC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C8CDC419BE59910030CC8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C8CDC619BE59910030CC8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C8CDC719BE59910030CC8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63C8CDCA19BE59910030CC8A /* Thousand_Words.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thousand_Words.xcdatamodel; sourceTree = "<group>"; };
-		63C8CDCC19BE59910030CC8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63C8CDCD19BE59910030CC8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63C8CDD019BE59910030CC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C8CDD219BE59910030CC8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63C8CDD819BE59910030CC8A /* Thousand WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thousand WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C8CDDD19BE59910030CC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C8CDDE19BE59910030CC8A /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		63C8CDE819BE5B230030CC8A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		63C8CDEA19BE5BC10030CC8A /* AlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewController.h; sourceTree = "<group>"; };
+		63C8CDEB19BE5BC10030CC8A /* AlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		633F8E9C19BE5FDD009FFE6D /* CoreData Model */ = {
+			isa = PBXGroup;
+			children = (
+				63C8CDC919BE59910030CC8A /* Thousand_Words.xcdatamodeld */,
+				6353C6DA19BFA2EF00F32DDB /* Album.h */,
+				6353C6DB19BFA2EF00F32DDB /* Album.m */,
+				6353C6D719BFA2EF00F32DDB /* Photo.h */,
+				6353C6D819BFA2EF00F32DDB /* Photo.m */,
+			);
+			name = "CoreData Model";
+			sourceTree = "<group>";
+		};
+		6343C47719BF22C100150644 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6343C47219BF1C2B00150644 /* PhotoCollectionViewCell.h */,
+				6343C47319BF1C2B00150644 /* PhotoCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6353C6E319BFB01B00F32DDB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				633F8E9D19BF1610009FFE6D /* CoreDataHelper.h */,
+				633F8E9E19BF1610009FFE6D /* CoreDataHelper.m */,
+				6353C6DD19BFA3D100F32DDB /* PictureDataTransformer.h */,
+				6353C6DE19BFA3D100F32DDB /* PictureDataTransformer.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		63C8CDB619BE59910030CC8A = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +136,17 @@
 		63C8CDC119BE59910030CC8A /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				63C8CDC619BE59910030CC8A /* AppDelegate.h */,
-				63C8CDC719BE59910030CC8A /* AppDelegate.m */,
-				63C8CDCC19BE59910030CC8A /* ViewController.h */,
-				63C8CDCD19BE59910030CC8A /* ViewController.m */,
-				63C8CDCF19BE59910030CC8A /* Main.storyboard */,
+				633F8E9C19BE5FDD009FFE6D /* CoreData Model */,
+				63C8CDE819BE5B230030CC8A /* Main.storyboard */,
+				6343C47719BF22C100150644 /* Views */,
+				63C8CDEA19BE5BC10030CC8A /* AlbumTableViewController.h */,
+				63C8CDEB19BE5BC10030CC8A /* AlbumTableViewController.m */,
+				6343C46F19BF19C300150644 /* PhotosCollectionViewController.h */,
+				6343C47019BF19C300150644 /* PhotosCollectionViewController.m */,
+				6353C6E019BFB00500F32DDB /* PhotoDetailViewController.h */,
+				6353C6E119BFB00500F32DDB /* PhotoDetailViewController.m */,
+				6353C6E319BFB01B00F32DDB /* Helpers */,
 				63C8CDD219BE59910030CC8A /* Images.xcassets */,
-				63C8CDC919BE59910030CC8A /* Thousand_Words.xcdatamodeld */,
 				63C8CDC219BE59910030CC8A /* Supporting Files */,
 			);
 			path = "Thousand Words";
@@ -96,6 +155,9 @@
 		63C8CDC219BE59910030CC8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6343C47519BF1FD900150644 /* Default.jpg */,
+				63C8CDC619BE59910030CC8A /* AppDelegate.h */,
+				63C8CDC719BE59910030CC8A /* AppDelegate.m */,
 				63C8CDC319BE59910030CC8A /* Info.plist */,
 				63C8CDC419BE59910030CC8A /* main.m */,
 			);
@@ -199,8 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C8CDD119BE59910030CC8A /* Main.storyboard in Resources */,
 				63C8CDD319BE59910030CC8A /* Images.xcassets in Resources */,
+				6343C47619BF1FD900150644 /* Default.jpg in Resources */,
+				63C8CDE919BE5B230030CC8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6353C6DF19BFA3D100F32DDB /* PictureDataTransformer.m in Sources */,
+				6353C6E219BFB00500F32DDB /* PhotoDetailViewController.m in Sources */,
+				633F8E9F19BF1610009FFE6D /* CoreDataHelper.m in Sources */,
 				63C8CDC819BE59910030CC8A /* AppDelegate.m in Sources */,
+				63C8CDEC19BE5BC10030CC8A /* AlbumTableViewController.m in Sources */,
+				6343C47119BF19C300150644 /* PhotosCollectionViewController.m in Sources */,
+				6353C6D919BFA2EF00F32DDB /* Photo.m in Sources */,
 				63C8CDC519BE59910030CC8A /* main.m in Sources */,
-				63C8CDCE19BE59910030CC8A /* ViewController.m in Sources */,
+				6353C6DC19BFA2EF00F32DDB /* Album.m in Sources */,
+				6343C47419BF1C2B00150644 /* PhotoCollectionViewCell.m in Sources */,
 				63C8CDCB19BE59910030CC8A /* Thousand_Words.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,17 +312,6 @@
 			targetProxy = 63C8CDD919BE59910030CC8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		63C8CDCF19BE59910030CC8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63C8CDD019BE59910030CC8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		63C8CDE019BE59910030CC8A /* Debug */ = {
@@ -336,9 +395,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Thousand Words/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -347,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Thousand Words/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +468,7 @@
 				63C8CDE419BE59910030CC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63C8CDE519BE59910030CC8A /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +477,7 @@
 				63C8CDE719BE59910030CC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
