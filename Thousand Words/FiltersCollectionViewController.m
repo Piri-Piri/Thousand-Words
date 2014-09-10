@@ -105,6 +105,21 @@
 
 #pragma mark <UICollectionViewDelegate>
 
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    PhotoCollectionViewCell *selectedCell = (PhotoCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+    
+    self.photo.image = selectedCell.imageView.image;
+    
+    NSError *error = nil;
+    if (![self.photo.managedObjectContext save:&error]) {
+        // error in saving a photo
+        NSLog(@"%@", error.localizedDescription);
+    }
+    
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 /*
 // Uncomment this method to specify if the specified item should be highlighted during tracking
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath {
