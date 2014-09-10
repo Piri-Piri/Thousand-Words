@@ -11,6 +11,7 @@
 		6343C47119BF19C300150644 /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343C47019BF19C300150644 /* PhotosCollectionViewController.m */; };
 		6343C47419BF1C2B00150644 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343C47319BF1C2B00150644 /* PhotoCollectionViewCell.m */; };
 		6343C47619BF1FD900150644 /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6343C47519BF1FD900150644 /* Default.jpg */; };
+		634D883219C057610021197C /* FiltersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D883119C057610021197C /* FiltersCollectionViewController.m */; };
 		6353C6D919BFA2EF00F32DDB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6D819BFA2EF00F32DDB /* Photo.m */; };
 		6353C6DC19BFA2EF00F32DDB /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6DB19BFA2EF00F32DDB /* Album.m */; };
 		6353C6DF19BFA3D100F32DDB /* PictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353C6DE19BFA3D100F32DDB /* PictureDataTransformer.m */; };
@@ -42,6 +43,8 @@
 		6343C47219BF1C2B00150644 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		6343C47319BF1C2B00150644 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		6343C47519BF1FD900150644 /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
+		634D883019C057610021197C /* FiltersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersCollectionViewController.h; sourceTree = "<group>"; };
+		634D883119C057610021197C /* FiltersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersCollectionViewController.m; sourceTree = "<group>"; };
 		6353C6D719BFA2EF00F32DDB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		6353C6D819BFA2EF00F32DDB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		6353C6DA19BFA2EF00F32DDB /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				6343C47019BF19C300150644 /* PhotosCollectionViewController.m */,
 				6353C6E019BFB00500F32DDB /* PhotoDetailViewController.h */,
 				6353C6E119BFB00500F32DDB /* PhotoDetailViewController.m */,
+				634D883019C057610021197C /* FiltersCollectionViewController.h */,
+				634D883119C057610021197C /* FiltersCollectionViewController.m */,
 				6353C6E319BFB01B00F32DDB /* Helpers */,
 				63C8CDD219BE59910030CC8A /* Images.xcassets */,
 				63C8CDC219BE59910030CC8A /* Supporting Files */,
@@ -285,6 +290,7 @@
 				6353C6E219BFB00500F32DDB /* PhotoDetailViewController.m in Sources */,
 				633F8E9F19BF1610009FFE6D /* CoreDataHelper.m in Sources */,
 				63C8CDC819BE59910030CC8A /* AppDelegate.m in Sources */,
+				634D883219C057610021197C /* FiltersCollectionViewController.m in Sources */,
 				63C8CDEC19BE5BC10030CC8A /* AlbumTableViewController.m in Sources */,
 				6343C47119BF19C300150644 /* PhotosCollectionViewController.m in Sources */,
 				6353C6D919BFA2EF00F32DDB /* Photo.m in Sources */,
