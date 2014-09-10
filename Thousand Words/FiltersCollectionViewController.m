@@ -98,7 +98,14 @@
     PhotoCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
     
-    cell.imageView.image = [self filteredImageFromImage:self.photo.image andFilter:self.filters[indexPath.row]];
+    dispatch_queue_t filterQueue = dispatch_queue_create("filterQueue", NULL);
+    
+    dispatch_async(filterQueue, ^{
+        UIImage *filterImage = [self filteredImageFromImage:self.photo.image andFilter:self.filters[indexPath.row]];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            cell.imageView.image = filterImage;
+        });
+    });
     
     return cell;
 }
@@ -110,14 +117,15 @@
     PhotoCollectionViewCell *selectedCell = (PhotoCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     
     self.photo.image = selectedCell.imageView.image;
+    if (self.photo.image) {
+        NSError *error = nil;
+        if (![self.photo.managedObjectContext save:&error]) {
+            // error in saving a photo
+            NSLog(@"%@", error.localizedDescription);
+        }
     
-    NSError *error = nil;
-    if (![self.photo.managedObjectContext save:&error]) {
-        // error in saving a photo
-        NSLog(@"%@", error.localizedDescription);
+        [self.navigationController popToRootViewControllerAnimated:YES];
     }
-    
-    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*
